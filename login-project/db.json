@@ -1,0 +1,9 @@
+{
+  "signup": [
+    { "id": 1, "name": "satha", "email": "sathasoundarppm@gmail.com",  "mobile": "9876543210",  "password": "satha@123" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}

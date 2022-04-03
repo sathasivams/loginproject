@@ -1,0 +1,37 @@
+<section><div class="container">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="text-center">
+                <h1>Login</h1>
+                <form [formGroup] = "signupForm" (ngSubmit)="signupuser()">
+                    <p>
+                        <mat-form-field>
+                            <input formControlName ="name" matInput placeholder="Enter Your Name">
+                          </mat-form-field>
+                    </p>
+                    <p>
+                        <mat-form-field>
+                            <input formControlName ="email" matInput placeholder="Enter Your Email">
+                          </mat-form-field>
+                    </p>
+                    <p>
+                        <mat-form-field>
+                            <input formControlName ="mobile" matInput placeholder="Enter User Mobile No">
+                          </mat-form-field>
+                    </p>
+                    <p>
+                        <mat-form-field>
+                            <input formControlName ="password" matInput placeholder="Enter Password">
+                          </mat-form-field>
+                    </p>
+                    <button mat-raised-button color="primary">SignUp</button>
+                  </form>
+                  <p class="message">Already register? Click to <a routerLink="/login">login Page!!</a></p>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
